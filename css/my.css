@@ -36,10 +36,14 @@ body{
     --var-color-background: white;
     --var-color-text: #342F1E; 
     --var-color-subtitle: #F99053;
-    --var-coloredRow: linear-gradient(to right bottom, #f8f8f8, #f0f0f1, #e7e7ea, #dedfe4, #d5d7dd);
+   /* --var-coloredRow: linear-gradient(to right bottom, #f8f8f8, #f0f0f1, #e7e7ea, #dedfe4, #d5d7dd);
+    */
+    --var-coloredRow: linear-gradient(to right top, #ffbec2, #ffccc5, #ffdbcd, #ffe8da, #fff5ea);
 }
 
-
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700 !important;
+}
 
 
 /*----------------------------------------------------------------*/
@@ -54,12 +58,17 @@ body{
 
 .fontPage{
     font-family: var(--var-fontTitle);
+    /*color: var(--var-color-subtitle); */
 }
-
 
 
 .center{
     text-align: center;
+}
+
+
+.fontSize{
+    font-size: 1.5rem;;
 }
 
 .fontContent{
