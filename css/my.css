@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'FashionVictim';
+    src: url('/font/fashion-victim-font/subset-FashionVictim.woff2') format('woff2'),
+        url('/font/fashion-victim-font/subset-FashionVictim.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: var(--var-color-background) !important;
+    font-size: var(--var-font-size-text) !important;
+}
+
+.container{
+    --mdb-gutter-x: 0 !important;
+}
+
+
+.row{
+    --mdb-gutter-x: 0 !important;
+}
+
+
+:root{
+    --var-fontTitle: "FashionVictim";
+    --var-fontContent: monospace;
+    --var-font-size-text: 1rem;
+    --var-font-size-icons: 0.8rem;
+    --var-backImg-size: 300px !important;
+    --var-color-background: white;
+    --var-color-text: #342F1E; 
+    --var-color-subtitle: #F99053;
+    --var-coloredRow: linear-gradient(to right bottom, #f8f8f8, #f0f0f1, #e7e7ea, #dedfe4, #d5d7dd);
+}
+
+
+
+
+/*----------------------------------------------------------------*/
+/*  Usefull for the page  */
+
+/*----------------------------------------------------------------*/
+
+.mTop{
+    margin-top: 5% !important;
+}
+
+
+.fontPage{
+    font-family: var(--var-fontTitle);
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+.fontContent{
+    font-family: var(--var-fontContent);
+}
+
+
+/*----------------------------------------------------------------*/
+/*----------------------------------------------------------------*/
+
+
+.logoSection{
+    background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.7)), url("../img/6.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    margin-top: 0;
+    padding: 0;
+    box-sizing: content-box;
+    height: var(--var-backImg-size);
+    width: 100% !important;
+}
+
+
+.iconsButtons{
+    text-align: center !important;
+    vertical-align: middle !important;
+    margin: auto;
+    font-family: var(--var-fontContent);
+    font-weight: 900;
+    font-size: var(--var-font-size-icons);
+}
+
+
+.messageContent{
+    text-align: justify;
+    font-family: var(--var-fontContent);
+    font-size: var(--var-font-size) !important;
+}
+
+
+.title{
+    margin-top: 5%;
+    font-size: 5.5rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: var(--var-fontTitle) !important;
+    color: var(--var-color-text);
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+
+.subTitle{
+    color: #F99053;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0 !important;
+    font-family: var(--var-fontTitle);
+    margin-top: -1.5%;
+}
+
+
+.coloredFooter{
+    background-image: var(--var-coloredRow);
+    padding-top: 2%;
+}
+
+
+.coloredRow{
+    background-image: var(--var-coloredRow);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-top: 4% !important;
+    margin-bottom: 4% !important;
+
+}
+
+
+.whiteRow{
+    padding-top: 4%;
+    margin-top: 4% !important;
+}
+
+
+.card{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #f8f8f8 !important;
+    padding: 2%;
+    border-radius: 30px !important;
+    -webkit-box-shadow: 12px 9px 30px 2px #525752 !important; 
+    box-shadow: 12px 9px 30px 2px #525752 !important;
+}
+
+.card-content{
+    padding: 3%;
+}
+
+
+.fixMail{
+    font-family: var(--var-fontContent) !important;
+    font-size: var(--var-font-size-text) !important;
+}
+
+
+@media (max-width: 950px) {  
+
+    :root{
+        --var-font-size-text: 0.8rem;
+    }
+
+    .title{
+        margin-top: 15%;
+    }
+    
+    .center .p{
+        text-align: center;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+}
+
+
+
+
+
+
+
