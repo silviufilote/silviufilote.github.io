@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .center{
-    text-align: center;
+    text-align: center !important;
 }
 
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 .messageContent{
-    text-align: justify;
+    text-align: justify; 
     font-family: var(--var-fontContent);
     font-size: var(--var-font-size) !important;
 }
@@ -190,6 +190,13 @@ h1, h2, h3, h4, h5, h6{
         text-align: center;
         display: inline-block;
         vertical-align: middle;
+    }
+
+    .messageContent{
+        /*text-align: justify; */
+        text-align: left;
+        font-family: var(--var-fontContent);
+        font-size: var(--var-font-size) !important;
     }
 
 }
